@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0;
+    color: #B4CDED;
+}
+
+.case,
+.teammate {
+    border: 2px solid white;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 30px 30px;
+}
+
+section.projects,
+section.contacts {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+
+/* Navigation */
+
+nav {
+    height: 80px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav img {
+    height: 30px;
+    margin: 0 30px;
+}
+
+nav .links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 15px;
+}
+
+nav .logo {
+    margin: 20px 30px;
+}
+
+nav button {
+    background-color: #ec2768;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+nav .burgermenu {
+    display: none;
+    margin: auto;
+}
+
+/* Header */
+
+header {
+    background-image: url("../cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+header h1 {
+    max-width: 800px;
+    margin: 60px;
+}
+
+/* Projects */
+
+.cases {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.case {    
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#goldenapple {
+    background-image: url("../goldenapple.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#rostov {
+    background-image: url("../rostov.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+}
+
+#maliy {
+    background-image: url("../maliy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+}
+
+#andybookstore {
+    background-image: url("../andybookstore.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+
+
+/* Team */
+
+.team h2 {
+    display: none;
+}
+
+.teammates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teammate {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+#mholmes {
+    background-image: url("../mholmes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lbaker {
+    background-image: url("../lbaker.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mcox {
+    background-image: url("../mcox.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#abenson {
+    background-image: url("../abenson.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jshore {
+    background-image: url("../jshore.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Contacts */
+
+section.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contacts img {
+    width: 400px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.contacts .content {
+    width: 300px;
+    padding-right: 40px;
+    margin: 20px 0;
+    flex-grow: 1;
+}
+
+
+/* Copyright */
+
+footer {
+    background-color: #ebebeb;       
+    padding: 10px 30px;
+}
+
+footer p {
+    font-size: 0.75rem;
+    text-align: right;
+    color: #101321; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .links a {
+        display: none;
+    }
+
+    nav .burgermenu {
+        display: inline-block;
+    }
+
+}
+
+
+
+
+
+
+
