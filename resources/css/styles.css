@@ -77,9 +77,9 @@ nav {
     border-bottom: 2px solid #282B37; 
 }
 
-nav img {
+img.logo {
     height: 30px;
-    margin: 0 30px;
+    margin: 10px 30px;
 }
 
 nav .links {
@@ -92,10 +92,6 @@ nav a {
     margin: 15px;
 }
 
-nav .logo {
-    margin: 20px 30px;
-}
-
 nav button {
     background-color: #ec2768;
     color: white;
@@ -104,12 +100,18 @@ nav button {
     border-radius: 20px;
     font-weight: 600;
     margin-left: 20px;
-    display: inline-block;
 }
 
-nav .burgermenu {
-    display: none;
+.burgermenu {
     margin: auto;
+    margin-left: 10px;
+    display: none;    
+}
+
+.burgermenu img {
+    height: 30px;
+    width: 40px;
+    padding: 10px 5px;
 }
 
 /* Header */
