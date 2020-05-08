@@ -35,7 +35,7 @@ h4 {
     font-size: 0.75rem;
     font-weight: 600;
     margin: 0;
-    color: #B4CDED;
+    color: #B7B8BC;
 }
 
 .case,
@@ -44,7 +44,7 @@ h4 {
 }
 
 .description {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
     color: white;
     width: 100%;
     margin: 0;
@@ -58,18 +58,23 @@ section.contacts {
     padding: 0 20px;
 }
 
+nav,
+footer {
+    background-color:#0B0D17;
+}
+
 
 /* Navigation */
 
 nav {
     height: 80px;
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;    
     width: 100%;
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
+    border-bottom: 2px solid #282B37; 
 }
 
 nav img {
@@ -115,7 +120,7 @@ header {
     background-position: center;
     background-size: cover;
     min-height: 500px;
-    color: aliceblue;
+    color: white;
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -255,16 +260,16 @@ section.contacts {
 
 /* Copyright */
 
-footer {
-    background-color: #ebebeb;       
-    padding: 10px 30px;
+footer {          
+    padding: 5px 30px;
+    border-top: 2px solid #282B37;
 }
 
 footer p,
 footer a {
     font-size: 0.75rem;
     text-align: center;
-    color: #343642; 
+    color: #64666F; 
 }
 
 
