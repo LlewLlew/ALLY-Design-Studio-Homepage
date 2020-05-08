@@ -269,15 +269,7 @@ footer a {
 
 
 
-
-
-
-
-
-
-
-
-
+/* Media queries */
 
 @media only screen and (max-width: 768px) {
     .links a {
@@ -286,6 +278,10 @@ footer a {
 
     nav .burgermenu {
         display: inline-block;
+    }
+
+    h1 {
+        font-size: 3rem;
     }
 
 }
