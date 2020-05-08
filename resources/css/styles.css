@@ -70,7 +70,7 @@ nav {
     height: 80px;
     position: fixed;    
     width: 100%;
-    color: whitesmoke;
+    color: #FBFBFC;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -269,7 +269,7 @@ footer p,
 footer a {
     font-size: 0.75rem;
     text-align: center;
-    color: #64666F; 
+    color: #797A7F; 
 }
 
 
