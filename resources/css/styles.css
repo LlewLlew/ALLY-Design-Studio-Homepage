@@ -248,13 +248,13 @@ section.contacts {
 }
 
 .contacts img {
-    width: 320px;
+    width: 280px;
     height: auto;
     flex-grow: 2;
 }
 
 .contacts .content {
-    width: 300px;
+    width: 280px;
     padding-right: 40px;
     margin: 20px 0;
     flex-grow: 1;
