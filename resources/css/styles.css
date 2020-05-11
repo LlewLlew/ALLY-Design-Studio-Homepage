@@ -79,7 +79,8 @@ nav {
 
 img.logo {
     height: 30px;
-    margin: 10px 30px;
+    margin: 10px 0;
+    margin-left: 30px;
 }
 
 nav .links {
@@ -247,9 +248,9 @@ section.contacts {
 }
 
 .contacts img {
-    width: 400px;
+    width: 320px;
     height: auto;
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
 .contacts .content {
